@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "Whyte Inktrap";
+  src: url("WhyteInktrap-Black.eot");
+  src: local("Whyte Inktrap Black"), local("WhyteInktrap-Black"),
+    url("WhyteInktrap-Black.eot?#iefix") format("embedded-opentype"),
+    url("WhyteInktrap-Black.woff2") format("woff2"),
+    url("WhyteInktrap-Black.woff") format("woff"),
+    url("WhyteInktrap-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Whyte Inktrap";
+  src: url("WhyteInktrap-Bold.eot");
+  src: local("Whyte Inktrap Bold"), local("WhyteInktrap-Bold"),
+    url("WhyteInktrap-Bold.eot?#iefix") format("embedded-opentype"),
+    url("WhyteInktrap-Bold.woff2") format("woff2"),
+    url("WhyteInktrap-Bold.woff") format("woff"),
+    url("WhyteInktrap-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Whyte Inktrap";
+  src: url("WhyteInktrap-Medium.eot");
+  src: local("Whyte Inktrap Medium"), local("WhyteInktrap-Medium"),
+    url("WhyteInktrap-Medium.eot?#iefix") format("embedded-opentype"),
+    url("WhyteInktrap-Medium.woff2") format("woff2"),
+    url("WhyteInktrap-Medium.woff") format("woff"),
+    url("WhyteInktrap-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Whyte Inktrap";
+  src: url("WhyteInktrap-Heavy.eot");
+  src: local("Whyte Inktrap Heavy"), local("WhyteInktrap-Heavy"),
+    url("WhyteInktrap-Heavy.eot?#iefix") format("embedded-opentype"),
+    url("WhyteInktrap-Heavy.woff2") format("woff2"),
+    url("WhyteInktrap-Heavy.woff") format("woff"),
+    url("WhyteInktrap-Heavy.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
