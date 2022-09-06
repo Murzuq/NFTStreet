@@ -1,0 +1,35 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%; //1rem = 10px; 10px/16px = 62.5%
+}
+
+body {
+  font-family: $font-family-main;
+  background: linear-gradient(
+    249.39deg,
+    $primary-color-dark -1.22%,
+    $primary-color-light 103.79%
+  );
+}
+
+// h1 {
+//   font-family: "Whyte Inktrap", sans-serif;
+//   font-size: 100px;
+// }
+
+// h2 {
+//   font-family: "IBM Plex Sans", sans-serif;
+//   font-size: 100px;
+// }
+
+// h3 {
+//   font-family: "IBM Plex Serif", serif;
+//   font-size: 100px;
+// }
