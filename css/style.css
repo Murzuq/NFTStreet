@@ -43,3 +43,15 @@ body {
     font-weight: 600;
     text-decoration: none;
     color: #ffffff; }
+
+.btn {
+  background-color: #d331bb;
+  padding: 1.4rem 2.4rem;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.4rem; }
+  .btn__header {
+    display: flex;
+    align-items: center; }
+  .btn__icon {
+    margin-right: 1rem; }
