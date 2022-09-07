@@ -149,3 +149,18 @@
     }
   }
 }
+
+.partner {
+  display: flex;
+  background-image: url("img/partner-bg.png");
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  height: 13.9rem;
+  margin-top: 6.2rem;
+  margin-bottom: 3.4rem;
+
+  &__img {
+    height: 3.3rem;
+  }
+}

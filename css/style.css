@@ -24,6 +24,9 @@ body {
   padding-left: 15.1rem;
   margin-top: 14.1rem; }
 
+.section-partner {
+  padding: 0 15rem; }
+
 .header__logo, .header__logo:link, .header__logo:visited {
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 2.8rem;
@@ -122,3 +125,15 @@ body {
       font-size: 1.8rem;
       font-weight: 400;
       color: #fcfcfc; }
+
+.partner {
+  display: flex;
+  background-image: url("img/partner-bg.png");
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  height: 13.9rem;
+  margin-top: 6.2rem;
+  margin-bottom: 3.4rem; }
+  .partner__img {
+    height: 3.3rem; }
