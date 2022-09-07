@@ -20,6 +20,10 @@ body {
   background-color: #1f1d2b;
   padding: 0 15rem; }
 
+.head {
+  padding: 0 15rem;
+  margin-top: 14.1rem; }
+
 .header__logo, .header__logo:link, .header__logo:visited {
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 2.8rem;
@@ -55,3 +59,41 @@ body {
     padding: 1.4rem 2.4rem; }
   .btn__icon {
     margin-right: 1rem; }
+  .btn__head {
+    display: inline-block;
+    padding: 1.8rem 7.2rem;
+    margin-top: 4.8rem; }
+
+.head {
+  display: flex; }
+  .head__text {
+    flex: 0 0 50%; }
+    .head__text_main {
+      font-size: 7.2rem;
+      font-weight: 950;
+      color: #ffffff;
+      line-height: 8.6rem; }
+    .head__text_sub {
+      font-size: 1.8rem;
+      font-family: "IBM Plex Sans", sans-serif;
+      font-weight: 400;
+      color: #eeeeee;
+      line-height: 2.5rem; }
+  .head__img {
+    position: relative;
+    left: 0; }
+    .head__img_item {
+      position: absolute;
+      flex: 0 0 50%; }
+      .head__img_item-1 {
+        z-index: 200;
+        width: 44.6rem;
+        top: 0;
+        left: 0; }
+      .head__img_item-2 {
+        z-index: 100;
+        top: 5rem;
+        left: 4.6rem; }
+      .head__img_item-3 {
+        top: 10.7rem;
+        left: 8.7rem; }

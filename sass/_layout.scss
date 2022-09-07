@@ -4,5 +4,10 @@
   align-items: center;
   height: 9.6rem;
   background-color: #1f1d2b;
-  padding: 0 15rem;
+  padding: $container;
+}
+
+.head {
+  padding: $container;
+  margin-top: 14.1rem;
 }
