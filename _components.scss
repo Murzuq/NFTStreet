@@ -15,8 +15,6 @@
   &__navigation {
     display: flex;
     align-items: center;
-    &_nav {
-    }
 
     &_list {
       list-style: none;
@@ -124,8 +122,6 @@
   }
 
   &__user {
-    // width: 58.6rem;
-    // height: 13.9rem;
     background: #262222;
     opacity: 0.45;
     backdrop-filter: blur(86px);
@@ -133,12 +129,10 @@
     padding: 3.8rem 8.2rem 3.5rem 8.3rem;
 
     &_con {
-      //   background-color: orangered;
       display: inline-block;
       color: #fcfcfc;
 
       &:not(:last-child) {
-        // background-color: red;
         margin-right: 4.6rem;
         padding-right: 4rem;
         border-right: 1px solid $color-grey;
@@ -181,9 +175,6 @@
     font-weight: 900;
     color: $color-white;
     margin-bottom: 6.4rem;
-  }
-
-  &__sell {
   }
 
   &__card {
