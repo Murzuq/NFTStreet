@@ -138,6 +138,7 @@ body {
 
 .partner {
   display: flex;
+  background-image: url("../img/partner-bg.png");
   justify-content: space-around;
   align-items: center;
   align-content: center;
