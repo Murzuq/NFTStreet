@@ -18,7 +18,7 @@ body {
   align-items: center;
   height: 9.6rem;
   background-color: #1f1d2b;
-  margin: 0 15rem; }
+  padding: 0 15rem; }
 
 .section-head {
   margin-left: 15.1rem;
@@ -28,7 +28,10 @@ body {
   margin: 6.2rem 15rem 3.4rem 15rem; }
 
 .section-top-sellers {
-  margin: 0 15rem; }
+  margin: 9.7rem 15rem; }
+
+.section-explore {
+  margin: 7.2rem 15rem; }
 
 .header__logo, .header__logo:link, .header__logo:visited {
   font-family: "IBM Plex Sans", sans-serif;
@@ -69,13 +72,15 @@ body {
     display: inline-block;
     padding: 1.8rem 7.2rem;
     margin-top: 4.8rem; }
+  .btn__explore {
+    padding: 1.8rem 4.1rem;
+    font-family: "IBM Plex Serif", serif; }
 
 .row {
   display: flex;
   justify-content: space-between;
-  width: 100%; }
-  .row:not(:first-child) {
-    margin-top: 2.4rem; }
+  width: 100%;
+  margin-top: 6.4rem; }
 
 .head {
   display: flex;
@@ -182,3 +187,46 @@ body {
   width: 8rem;
   height: 8rem;
   margin-right: 2.4rem; }
+
+.explore__head {
+  display: flex;
+  justify-content: space-between; }
+  .explore__head_text {
+    font-size: 4.8rem;
+    font-weight: 900;
+    color: #ffffff; }
+
+.explore__card {
+  margin-top: 6.4rem;
+  position: relative; }
+  .explore__card_img {
+    width: 36.4rem;
+    height: 49.6rem; }
+    .explore__card_img:not(:last-child) {
+      margin-right: 2.4rem; }
+  .explore__card_icon {
+    display: flex;
+    position: absolute;
+    top: 3.4rem;
+    right: 5.4rem;
+    width: 4.2rem;
+    height: 4.2rem;
+    background: rgba(190, 190, 190, 0.6);
+    opacity: 0.2;
+    border-radius: 32px; }
+    .explore__card_icon img {
+      position: absolute;
+      height: 1.8rem;
+      width: 1.9rem;
+      left: 26.84%;
+      right: 26.09%;
+      top: 28.57%;
+      bottom: 28.38%; }
+  .explore__card_details {
+    position: absolute;
+    background-image: url(../img/top-sellers-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    bottom: 0;
+    left: 0; }

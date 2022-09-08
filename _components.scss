@@ -61,15 +61,21 @@
     padding: 1.8rem 7.2rem;
     margin-top: 4.8rem;
   }
+
+  &__explore {
+    padding: 1.8rem 4.1rem;
+    font-family: $font-family-sub-2;
+  }
 }
 
 .row {
   display: flex;
   justify-content: space-between;
   width: 100%;
+  margin-top: 6.4rem;
 
   &:not(:first-child) {
-    margin-top: 2.4rem;
+    // margin-top: 2.4rem;
   }
 }
 
@@ -216,5 +222,83 @@
     width: 8rem;
     height: 8rem;
     margin-right: 2.4rem;
+  }
+}
+
+.explore {
+  &__head {
+    display: flex;
+    justify-content: space-between;
+
+    &_text {
+      font-size: 4.8rem;
+      font-weight: 900;
+      color: $color-white;
+    }
+  }
+
+  &__card {
+    margin-top: 6.4rem;
+    position: relative;
+    &_img {
+      width: 36.4rem;
+      height: 49.6rem;
+
+      &:not(:last-child) {
+        margin-right: 2.4rem;
+      }
+    }
+
+    &_icon {
+      display: flex;
+      position: absolute;
+      top: 3.4rem;
+      right: 5.4rem;
+      width: 4.2rem;
+      height: 4.2rem;
+      background: rgba(190, 190, 190, 0.6);
+      opacity: 0.2;
+      border-radius: 32px;
+      img {
+        // align-items: center;
+        position: absolute;
+        height: 1.8rem;
+        width: 1.9rem;
+        left: 26.84%;
+        right: 26.09%;
+        top: 28.57%;
+        bottom: 28.38%;
+      }
+    }
+
+    &_details {
+      position: absolute;
+      background-image: url(../img/top-sellers-bg.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      bottom: 0;
+      left: 0;
+    }
+  }
+
+  &__text {
+    &_up {
+    }
+
+    &_item {
+    }
+
+    &_priceEth {
+    }
+
+    &_down {
+    }
+
+    &_name {
+    }
+
+    &_priceDol {
+    }
   }
 }

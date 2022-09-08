@@ -4,7 +4,7 @@
   align-items: center;
   height: 9.6rem;
   background-color: #1f1d2b;
-  margin: $container;
+  padding: $container;
 }
 
 .section-head {
@@ -18,5 +18,9 @@
 }
 
 .section-top-sellers {
-  margin: $container;
+  margin: 9.7rem 15rem;
+}
+
+.section-explore {
+  margin: 7.2rem 15rem;
 }
