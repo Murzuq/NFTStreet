@@ -1,16 +1,14 @@
 .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   height: 9.6rem;
   background-color: #1f1d2b;
   padding: $container;
 }
 
 .section-head {
-  // padding: $container;
-  margin-left: 15.1rem;
-  margin-top: 14.1rem;
+  // margin: $container;
+  margin: 15rem 10rem 15rem 15rem;
+  // margin-left: 15.1rem;
+  // margin-top: 14.1rem;
 }
 
 .section-partner {

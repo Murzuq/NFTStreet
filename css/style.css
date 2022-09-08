@@ -13,16 +13,12 @@ body {
   background: linear-gradient(249.39deg, #0d0c4d -1.22%, #161620 103.79%); }
 
 .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   height: 9.6rem;
   background-color: #1f1d2b;
   padding: 0 15rem; }
 
 .section-head {
-  margin-left: 15.1rem;
-  margin-top: 14.1rem; }
+  margin: 15rem 10rem 15rem 15rem; }
 
 .section-partner {
   margin: 6.2rem 15rem 3.4rem 15rem; }
@@ -75,72 +71,75 @@ body {
   .btn__explore {
     padding: 1.8rem 4.1rem;
     font-family: "IBM Plex Serif", serif; }
+  .btn__bid {
+    background: #120d11; }
 
 .row {
   display: flex;
   justify-content: space-between;
-  width: 100%;
   margin-top: 6.4rem; }
 
-.head {
-  display: flex;
-  flex-wrap: wrap; }
-  .head__text {
-    flex: 0 0 57.9rem;
-    margin-right: 7.7rem; }
-    .head__text_main {
-      font-size: 7.2rem;
-      font-weight: 950;
-      color: #ffffff;
-      line-height: 8.6rem; }
-    .head__text_sub {
-      font-size: 1.8rem;
-      font-family: "IBM Plex Sans", sans-serif;
-      font-weight: 400;
-      color: #eeeeee;
-      line-height: 2.5rem; }
-  .head__img {
-    position: relative;
-    flex: 0 0 53.3rem; }
-    .head__img_item {
-      position: absolute;
-      flex: 0 0 50%; }
-      .head__img_item-1 {
-        z-index: 200;
-        width: 44.6rem;
-        height: 62.8rem;
-        top: 0;
-        left: 0; }
-      .head__img_item-2 {
-        z-index: 100;
-        top: 5rem;
-        left: 2.3rem; }
-      .head__img_item-3 {
-        top: 10.7rem;
-        left: 5rem; }
-  .head__user {
-    background: #262222;
-    opacity: 0.45;
-    backdrop-filter: blur(86px);
-    margin-top: 14.2rem;
-    margin-bottom: 7.3rem;
-    padding: 3.8rem 8.2rem 3.5rem 8.3rem; }
-    .head__user_con {
-      display: inline-block;
-      color: #fcfcfc; }
-      .head__user_con:not(:last-child) {
-        margin-right: 4.6rem;
-        padding-right: 4rem;
-        border-right: 1px solid #eeeeee; }
-    .head__user_num {
-      font-size: 32px;
-      font-weight: 900;
-      color: #fcfcfc; }
-    .head__user_text {
-      font-family: "Inter", sans-serif;
-      font-size: 1.8rem;
-      font-weight: 400;
-      color: #fcfcfc; }
+.head__up {
+  display: flex; }
+
+.head__text {
+  flex: 0 0 57.9rem;
+  margin-right: 7.7rem; }
+  .head__text_main {
+    font-size: 7.2rem;
+    font-weight: 950;
+    color: #ffffff;
+    line-height: 8.6rem; }
+  .head__text_sub {
+    font-size: 1.8rem;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    color: #eeeeee;
+    line-height: 2.5rem; }
+
+.head__img {
+  position: relative;
+  flex: 0 0 53.3rem; }
+  .head__img_item {
+    position: absolute;
+    flex: 0 0 50%; }
+    .head__img_item-1 {
+      z-index: 200;
+      width: 44.6rem;
+      height: 62.8rem;
+      top: 0;
+      left: 0; }
+    .head__img_item-2 {
+      z-index: 100;
+      top: 5rem;
+      left: 2.3rem; }
+    .head__img_item-3 {
+      top: 10.7rem;
+      left: 5rem; }
+
+.head__user {
+  background: #262222;
+  opacity: 0.45;
+  backdrop-filter: blur(86px);
+  margin-top: 14.2rem;
+  margin-bottom: 7.3rem;
+  padding: 3.8rem 8.2rem 3.5rem 8.3rem; }
+  .head__user_con {
+    display: inline-block;
+    color: #fcfcfc; }
+    .head__user_con:not(:last-child) {
+      margin-right: 4.6rem;
+      padding-right: 4rem;
+      border-right: 1px solid #eeeeee; }
+  .head__user_num {
+    font-size: 32px;
+    font-weight: 900;
+    color: #fcfcfc; }
+  .head__user_text {
+    font-family: "Inter", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #fcfcfc; }
 
 .partner {
   display: flex;
@@ -199,11 +198,10 @@ body {
 .explore__card {
   margin-top: 6.4rem;
   position: relative; }
+  .explore__card:not(:last-child) {
+    margin-right: 2.4rem; }
   .explore__card_img {
-    width: 36.4rem;
     height: 49.6rem; }
-    .explore__card_img:not(:last-child) {
-      margin-right: 2.4rem; }
   .explore__card_icon {
     display: flex;
     position: absolute;
@@ -217,7 +215,6 @@ body {
     .explore__card_icon img {
       position: absolute;
       height: 1.8rem;
-      width: 1.9rem;
       left: 26.84%;
       right: 26.09%;
       top: 28.57%;
@@ -225,8 +222,54 @@ body {
   .explore__card_details {
     position: absolute;
     background-image: url(../img/top-sellers-bg.png);
+    background-color: #fcfcfc;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
+    height: 16.8rem;
     bottom: 0;
-    left: 0; }
+    left: 0;
+    display: flex;
+    flex-direction: column; }
+    .explore__card_details > * {
+      display: flex;
+      flex-direction: column;
+      padding: 2rem 2.3rem 2rem 2.5rem; }
+
+.explore__text {
+  display: flex;
+  justify-content: space-between; }
+  .explore__text_main {
+    display: flex;
+    flex-direction: column;
+    color: #161616; }
+  .explore__text_item {
+    font-family: "IBM Plex Serif", serif;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 0.8rem; }
+  .explore__text_name {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-decoration: underline; }
+  .explore__text_price {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; }
+  .explore__text_priceEth {
+    font-weight: 900;
+    font-size: 2rem;
+    color: #b9b8ff; }
+  .explore__text_priceDol {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-top: 1.6rem; }
+
+.explore__button {
+  background: #120d11;
+  height: 5.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2.4rem; }
