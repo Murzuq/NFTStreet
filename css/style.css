@@ -22,8 +22,18 @@ body {
 .section-top-seller {
   margin: 9.7rem 0; }
 
+.section-explore {
+  margin: 7.2rem 0; }
+
 .row {
   display: flex; }
+
+.btn {
+  background: #d331bb;
+  text-decoration: none;
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 500;
+  font-size: 18px; }
 
 .partner {
   display: flex;
@@ -72,3 +82,16 @@ body {
     font-weight: 500;
     margin-top: 0.8rem;
     color: #a5a5a5; }
+
+.explore__head {
+  display: flex;
+  justify-content: space-between; }
+  .explore__head_text {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 4.8rem;
+    color: #fcfcfc; }
+  .explore__head_btn {
+    font-style: normal;
+    color: #fcfcfc;
+    padding: 18px 41px; }
