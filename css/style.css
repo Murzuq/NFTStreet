@@ -11,3 +11,19 @@ html {
 body {
   font-family: "Whyte Inktrap", sans-serif;
   background: linear-gradient(249.39deg, #0d0c4d -1.22%, #161620 103.79%); }
+
+.container {
+  margin: 0 15rem; }
+
+.section-partner {
+  height: 100%; }
+
+.partner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url("../img/partner-bg.png");
+  height: 13.9rem;
+  margin: 8.3rem 0 5.6rem 0; }
+  .partner__img {
+    height: 3.5rem; }

@@ -1,0 +1,12 @@
+.partner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url("../img/partner-bg.png");
+  height: 13.9rem;
+  margin: 8.3rem 0 5.6rem 0;
+
+  &__img {
+    height: 3.5rem;
+  }
+}
