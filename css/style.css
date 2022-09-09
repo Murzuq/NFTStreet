@@ -50,7 +50,7 @@ body {
   color: #fcfcfc;
   margin-bottom: 6.4rem; }
 
-.top-seller > .row:not(:first-child) {
+.top-seller__body > .row:last-child {
   margin-top: 2.4rem; }
 
 .top-seller__card {
@@ -85,7 +85,8 @@ body {
 
 .explore__head {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  margin-bottom: 6.4rem; }
   .explore__head_text {
     font-style: normal;
     font-weight: 900;

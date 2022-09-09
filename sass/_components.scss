@@ -30,9 +30,11 @@
     margin-bottom: 6.4rem;
   }
 
-  & > .row {
-    &:not(:first-child) {
-      margin-top: 2.4rem;
+  &__body {
+    & > .row {
+      &:last-child {
+        margin-top: 2.4rem;
+      }
     }
   }
 
@@ -83,6 +85,7 @@
   &__head {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 6.4rem;
 
     &_text {
       font-style: normal;
