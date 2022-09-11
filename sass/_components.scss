@@ -330,3 +330,77 @@
     }
   }
 }
+
+.subscribe {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  // gap: 13.8rem;
+  width: 100%;
+  &__body {
+    display: flex;
+    flex-direction: column;
+    gap: 4.2rem;
+  }
+
+  &__text {
+    width: 58.3rem;
+    &_head {
+      font-style: normal;
+      font-weight: 900;
+      font-size: 5.6rem;
+      color: #fafafa;
+    }
+
+    &_body {
+      font-family: $font-family-sub-1;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1.8rem;
+      color: #d4d4d4;
+    }
+
+    &__img {
+      width: 50%;
+
+      img {
+        width: 41.9rem;
+      }
+    }
+  }
+
+  &__form {
+    &_input {
+      background: linear-gradient(
+          0deg,
+          rgba(0, 0, 0, 0.76),
+          rgba(0, 0, 0, 0.76)
+        ),
+        #e0dcdc;
+      width: 35.2rem;
+      height: 5.9rem;
+      border: none;
+      outline: none;
+      font-family: $font-family-sub-2;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 1.8rem;
+      color: #b8b8b8;
+      padding-left: 2.5rem;
+    }
+  }
+
+  & > .btn {
+    width: 50px;
+    // background-color: red;
+  }
+
+  &__btn {
+    padding: 1.65rem 2.5rem;
+    // height: 5.9rem;
+    // width: 531px;
+    height: 58px;
+    // background-color: red;
+    color: #ffffff;
+  }
+}
