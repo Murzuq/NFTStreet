@@ -228,3 +228,96 @@
     }
   }
 }
+
+.top-collection {
+  &__head {
+    margin-bottom: 6.4rem;
+    &_text {
+      font-style: normal;
+      font-weight: 900;
+      font-size: 4.8rem;
+      color: #fcfcfc;
+    }
+  }
+
+  &__body {
+    & > .row {
+      &:last-child {
+        margin-top: 2.4rem;
+      }
+    }
+  }
+
+  &__card {
+    position: relative;
+    // width: 39.3rem;
+
+    &:not(:last-child) {
+      margin-right: 2.4rem;
+    }
+    &_body {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      justify-content: space-between;
+    }
+    &_bottom {
+    }
+  }
+
+  &__col1 {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: space-between;
+
+    &_row1 {
+    }
+    &_row2 {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+
+      &_col1 {
+      }
+      &_col2 {
+      }
+    }
+  }
+  &__col2 {
+  }
+
+  &__bg {
+    background-image: url(../img/top-collection-bg.png);
+    position: absolute;
+    width: 36.4rem;
+    height: 8.2rem;
+    background-repeat: no-repeat;
+    left: 0rem;
+    bottom: 0rem;
+  }
+
+  &__text {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 31.8rem;
+    height: 2.6rem;
+    left: 2.2rem;
+    bottom: 2.8rem;
+
+    &_name {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 2.4rem;
+      color: #fcfcfc;
+    }
+
+    &_item {
+      font-family: $font-family-sub-1;
+      font-weight: 400;
+      font-size: 1.8rem;
+      color: #eeeeee;
+    }
+  }
+}
