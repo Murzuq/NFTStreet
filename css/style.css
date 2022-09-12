@@ -271,18 +271,22 @@ body {
       font-size: 5.6rem;
       color: #fafafa; }
     .subscribe__text_body {
+      width: 100%;
       font-family: "IBM Plex Sans", sans-serif;
       font-style: normal;
       font-weight: 400;
       font-size: 1.8rem;
       color: #d4d4d4; }
     .subscribe__text__img {
-      width: 50%; }
+      width: 100%; }
       .subscribe__text__img img {
-        width: 41.9rem; }
+        width: 100%; }
+  .subscribe__form form {
+    display: flex;
+    width: 100%; }
   .subscribe__form_input {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)), #e0dcdc;
-    width: 35.2rem;
+    flex: 0 0 35.2rem;
     height: 5.9rem;
     border: none;
     outline: none;
@@ -292,9 +296,9 @@ body {
     font-size: 1.8rem;
     color: #b8b8b8;
     padding-left: 2.5rem; }
-  .subscribe > .btn {
-    width: 50px; }
-  .subscribe__btn {
-    padding: 1.65rem 2.5rem;
-    height: 58px;
+  .subscribe__form_btn {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: #ffffff; }
