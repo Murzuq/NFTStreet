@@ -29,7 +29,7 @@ body {
   margin: 10.1rem 0rem; }
 
 .footer {
-  margin: 0 15rem; }
+  margin: 8.3rem 15rem 7.2rem 15rem; }
 
 .row {
   display: flex; }
@@ -305,3 +305,61 @@ body {
     align-items: center;
     justify-content: center;
     color: #ffffff; }
+
+.footer__content {
+  display: flex;
+  gap: 14.2rem;
+  flex: 0 0 100%; }
+  .footer__content_text {
+    font-family: "IBM Plex Sans", sans-serif;
+    width: 28.9rem; }
+    .footer__content_text h1 {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 2.8rem;
+      color: #fcfcfc;
+      margin-bottom: 1.2rem; }
+    .footer__content_text p {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1.6rem;
+      line-height: 2.2rem;
+      color: #f6f6f6; }
+  .footer__content_navigations {
+    display: flex;
+    justify-content: space-between;
+    width: 70.9rem; }
+  .footer__content_link h2, .footer__content_stat h2, .footer__content_resource h2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2rem;
+    color: #fcfcfc;
+    margin-bottom: 3.2rem; }
+  .footer__content_link ul li, .footer__content_stat ul li, .footer__content_resource ul li {
+    list-style: none; }
+    .footer__content_link ul li:not(:first-child), .footer__content_stat ul li:not(:first-child), .footer__content_resource ul li:not(:first-child) {
+      margin-top: 1.2rem; }
+    .footer__content_link ul li a:link,
+    .footer__content_link ul li a:visited, .footer__content_stat ul li a:link,
+    .footer__content_stat ul li a:visited, .footer__content_resource ul li a:link,
+    .footer__content_resource ul li a:visited {
+      font-family: "IBM Plex Sans", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1.6rem;
+      text-decoration: none;
+      color: #f6f6f6; }
+  .footer__content_social h2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2rem;
+    color: #fcfcfc;
+    margin-bottom: 3.2rem; }
+  .footer__content_social ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .footer__content_social ul li {
+      list-style: none; }
+      .footer__content_social ul li:not(:last-child) {
+        margin-right: 1rem; }

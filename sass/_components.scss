@@ -402,3 +402,89 @@
     }
   }
 }
+
+.footer {
+  &__content {
+    display: flex;
+    gap: 14.2rem;
+    flex: 0 0 100%;
+
+    &_text {
+      font-family: $font-family-sub-1;
+      width: 28.9rem;
+      h1 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2.8rem;
+        color: #fcfcfc;
+        margin-bottom: 1.2rem;
+      }
+      p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.6rem;
+        line-height: 2.2rem;
+        color: #f6f6f6;
+      }
+    }
+
+    &_navigations {
+      display: flex;
+      justify-content: space-between;
+      width: 70.9rem;
+    }
+
+    &_link,
+    &_stat,
+    &_resource {
+      h2 {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 2rem;
+        color: #fcfcfc;
+        margin-bottom: 3.2rem;
+      }
+
+      ul {
+        li {
+          list-style: none;
+          &:not(:first-child) {
+            margin-top: 1.2rem;
+          }
+
+          a:link,
+          a:visited {
+            font-family: $font-family-sub-1;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1.6rem;
+            text-decoration: none;
+            color: #f6f6f6;
+          }
+        }
+      }
+    }
+
+    &_social {
+      h2 {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 2rem;
+        color: #fcfcfc;
+        margin-bottom: 3.2rem;
+      }
+      ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        li {
+          list-style: none;
+
+          &:not(:last-child) {
+            margin-right: 1rem;
+          }
+        }
+      }
+    }
+  }
+}
