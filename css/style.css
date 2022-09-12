@@ -28,6 +28,9 @@ body {
 .section-subscribe {
   margin: 10.1rem 0rem; }
 
+.footer {
+  margin: 0 15rem; }
+
 .row {
   display: flex; }
 
