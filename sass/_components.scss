@@ -488,3 +488,102 @@
     }
   }
 }
+
+.head {
+  display: flex;
+  gap: 7.7rem;
+  justify-content: space-between;
+  width: 100%;
+  &__text {
+    width: 50%;
+    &_main {
+      font-weight: 950;
+      font-size: 7.2rem;
+      line-height: 8.6rem;
+      color: #fcfcfc;
+    }
+
+    &_sub {
+      font-family: $font-family-sub-1;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1.8rem;
+      line-height: 2.5rem;
+      color: #eeeeee;
+    }
+
+    &_btn {
+      font-family: $font-family-sub-2;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 1.8rem;
+      line-height: 2.2rem;
+      color: $color-white;
+      width: 259px;
+      height: 58px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 4.8rem;
+    }
+  }
+
+  &__img {
+    // width: 53.3rem;
+    width: 50%;
+    position: absolute;
+    // top: 13.2rem;
+    right: 0rem;
+    &_group {
+      // width: 53.3rem;
+      width: 50%;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      // height: 62.6rem;
+    }
+    &_1 {
+      position: absolute;
+      top: 0;
+      left: 0;
+      // width: 100%;
+      // height: 100vh;
+    }
+    &_2 {
+      position: absolute;
+      top: 5rem;
+      left: 2.3rem;
+      // width: 100%;
+      // height: 100vh;
+    }
+    &_3 {
+      position: absolute;
+      top: 10.7rem;
+      left: 5.1rem;
+      // width: 100%;
+      // height: 100vh;
+    }
+  }
+
+  &__user {
+    margin-top: 142px;
+
+    background-image: url(../img/head-img-bg.png);
+    height: 13.9rem;
+    width: 50rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    &_bg {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 6.6rem;
+      width: 42.1rem;
+    }
+
+    &_active-user {
+    }
+  }
+}

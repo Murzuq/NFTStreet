@@ -15,6 +15,9 @@ body {
 .container {
   margin: 0 15rem; }
 
+.section-head {
+  margin-top: 14.1rem; }
+
 .section-partner {
   height: 100%;
   margin: 8.3rem 0 5.6rem 0; }
@@ -363,3 +366,72 @@ body {
       list-style: none; }
       .footer__content_social ul li:not(:last-child) {
         margin-right: 1rem; }
+
+.head {
+  display: flex;
+  gap: 7.7rem;
+  justify-content: space-between;
+  width: 100%; }
+  .head__text {
+    width: 50%; }
+    .head__text_main {
+      font-weight: 950;
+      font-size: 7.2rem;
+      line-height: 8.6rem;
+      color: #fcfcfc; }
+    .head__text_sub {
+      font-family: "IBM Plex Sans", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1.8rem;
+      line-height: 2.5rem;
+      color: #eeeeee; }
+    .head__text_btn {
+      font-family: "IBM Plex Serif", serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 1.8rem;
+      line-height: 2.2rem;
+      color: #ffffff;
+      width: 259px;
+      height: 58px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 4.8rem; }
+  .head__img {
+    width: 50%;
+    position: absolute;
+    right: 0rem; }
+    .head__img_group {
+      width: 50%;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    .head__img_1 {
+      position: absolute;
+      top: 0;
+      left: 0; }
+    .head__img_2 {
+      position: absolute;
+      top: 5rem;
+      left: 2.3rem; }
+    .head__img_3 {
+      position: absolute;
+      top: 10.7rem;
+      left: 5.1rem; }
+  .head__user {
+    margin-top: 142px;
+    background-image: url(../img/head-img-bg.png);
+    height: 13.9rem;
+    width: 50rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+    .head__user_bg {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 6.6rem;
+      width: 42.1rem; }
