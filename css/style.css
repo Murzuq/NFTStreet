@@ -50,7 +50,9 @@ body {
   text-decoration: none;
   font-family: "IBM Plex Serif", serif;
   font-weight: 500;
-  font-size: 18px; }
+  font-size: 1.8rem; }
+  .btn, .btn:link, .btn:visited {
+    color: #ffffff; }
 
 .header__logo, .header__logo:link, .header__logo:visited {
   font-family: "IBM Plex Sans", sans-serif;
