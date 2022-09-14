@@ -10,6 +10,59 @@
   font-size: 18px;
 }
 
+.header {
+  &__logo {
+    &,
+    &:link,
+    &:visited {
+      font-family: $font-family-sub-1;
+      font-size: 2.8rem;
+      font-weight: 600;
+      text-decoration: none;
+      color: $color-white;
+      text-transform: uppercase;
+    }
+  }
+
+  &__navigation {
+    display: flex;
+    align-items: center;
+    &_nav {
+    }
+
+    &_list {
+      list-style: none;
+      display: flex;
+      margin-right: 10rem;
+    }
+
+    &_item {
+      &:not(:last-child) {
+        margin-right: 3.6rem;
+      }
+    }
+
+    &_link {
+      &:link,
+      &:visited {
+        font-family: $font-family-sub-1;
+        font-size: 1.4rem;
+        font-weight: 600;
+        text-decoration: none;
+        color: $color-white;
+      }
+    }
+  }
+
+  &__btn {
+    padding: 1.4rem 2.4rem;
+
+    &_icon {
+      margin-right: 1rem;
+    }
+  }
+}
+
 .head {
   display: flex;
   gap: 7.7rem;
