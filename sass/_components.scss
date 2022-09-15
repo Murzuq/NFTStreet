@@ -61,7 +61,11 @@
   }
 
   &__btn {
-    padding: 1.4rem 2.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18.4rem;
+    height: 4.8rem;
 
     &_icon {
       margin-right: 1rem;
@@ -260,7 +264,12 @@
     &_btn {
       font-style: normal;
       color: #fcfcfc;
-      padding: 18px 41px;
+      // padding: 18px 41px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 15rem;
+      height: 5.8rem;
     }
   }
 
