@@ -24,7 +24,7 @@ html {
   font-size: 62.5%; }
   @media only screen and (max-width: 75em) {
     html {
-      font-size: 56.25%; } }
+      font-size: 50%; } }
   @media only screen and (max-width: 56.25em) {
     html {
       font-size: 50%; } }
@@ -78,13 +78,15 @@ body {
   .btn, .btn:link, .btn:visited {
     color: #ffffff; }
 
-.header__logo, .header__logo:link, .header__logo:visited {
-  font-family: "IBM Plex Sans", sans-serif;
-  font-size: 2.8rem;
-  font-weight: 600;
-  text-decoration: none;
-  color: #ffffff;
-  text-transform: uppercase; }
+.header__logo {
+  margin-right: 5.5rem; }
+  .header__logo, .header__logo:link, .header__logo:visited {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 2.8rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase; }
 
 .header__navigation {
   display: flex;
