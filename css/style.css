@@ -24,7 +24,7 @@ html {
   font-size: 62.5%; }
   @media only screen and (max-width: 75em) {
     html {
-      font-size: 50%; } }
+      font-size: 56.25%; } }
   @media only screen and (max-width: 56.25em) {
     html {
       font-size: 50%; } }
@@ -37,7 +37,8 @@ body {
   background: linear-gradient(249.39deg, #0d0c4d -1.22%, #161620 103.79%); }
 
 .container {
-  margin: 0 15rem; }
+  max-width: 113.7rem;
+  margin: 0 auto; }
 
 .header {
   display: flex;
