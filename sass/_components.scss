@@ -79,8 +79,17 @@
   gap: 7.7rem;
   justify-content: space-between;
   width: 100%;
+
+  @include respond(phone) {
+    display: block;
+    width: 100%;
+  }
   &__text {
     width: 50%;
+
+    @include respond(phone) {
+      width: 100%;
+    }
     &_main {
       font-weight: 950;
       font-size: 7.2rem;
@@ -117,6 +126,13 @@
     width: 50%;
     position: absolute;
     right: 0rem;
+
+    @include respond(phone) {
+      position: relative;
+      height: 500px;
+      margin-top: 4.8rem;
+    }
+
     &_group {
       width: 50%;
       position: relative;
