@@ -172,19 +172,30 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+
     &_bg {
       display: flex;
       justify-content: space-around;
       align-items: center;
       height: 6.6rem;
       width: 42.1rem;
+      @include respond(phone) {
+        flex-direction: column;
+        justify-content: space-between;
+        height: 24.8rem;
+      }
     }
 
     &_text {
       &:not(:last-child) {
         border-right: 1px solid #eeeeee;
         padding-right: 3.9rem;
+        @include respond(phone) {
+          border-right: none;
+          padding-right: 0;
+        }
       }
+
       h2 {
         font-weight: 900;
         font-size: 3.2rem;
@@ -194,6 +205,12 @@
         font-weight: 400;
         font-size: 1.8rem;
         color: #fcfcfc;
+      }
+      h2,
+      p {
+        @include respond(phone) {
+          text-align: center;
+        }
       }
     }
   }
