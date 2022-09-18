@@ -741,6 +741,11 @@
     gap: 14.2rem;
     flex: 0 0 100%;
 
+    @include respond(phone) {
+      display: block;
+      width: 100%;
+    }
+
     &_text {
       font-family: $font-family-sub-1;
       width: 28.9rem;
@@ -764,6 +769,11 @@
       display: flex;
       justify-content: space-between;
       width: 70.9rem;
+
+      @include respond(phone) {
+        display: block;
+        width: 100%;
+      }
     }
 
     &_link,
