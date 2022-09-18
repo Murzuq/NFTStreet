@@ -1,5 +1,10 @@
 .row {
   display: flex;
+
+  @include respond(phone) {
+    display: block;
+    width: 100%;
+  }
 }
 
 .btn {
@@ -32,7 +37,7 @@
   }
 
   &__navigation {
-    display: flex;
+    display: none;
     align-items: center;
     &_nav {
     }
@@ -58,6 +63,54 @@
         text-decoration: none;
         color: $color-white;
       }
+    }
+  }
+
+  &__mobile {
+    position: relative;
+    &_icon {
+      position: relative;
+      &,
+      &::before,
+      &::after {
+        width: 3rem;
+        height: 2.67px;
+        background-color: #fff;
+        display: inline-block;
+        border-radius: 200px;
+      }
+
+      &::before,
+      &::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        transition: all 0.2s;
+      }
+
+      &::before {
+        top: -0.8rem;
+      }
+      &::after {
+        top: 0.8rem;
+      }
+    }
+    &_checkbox {
+      position: absolute;
+      top: -50%;
+      left: 30%;
+      opacity: 0;
+    }
+    &_checkbox:checked + & &_icon {
+      background-color: transparent;
+    }
+    &_checkbox:checked + & &_icon::after {
+      top: 0;
+      transform: rotate(135deg);
+    }
+    &_checkbox:checked + & &_icon::before {
+      top: 0;
+      transform: rotate(-135deg);
     }
   }
 

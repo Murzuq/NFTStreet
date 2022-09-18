@@ -73,6 +73,10 @@ body {
 
 .row {
   display: flex; }
+  @media only screen and (max-width: 37.5em) {
+    .row {
+      display: block;
+      width: 100%; } }
 
 .btn {
   background: #d331bb;
@@ -94,7 +98,7 @@ body {
     text-transform: uppercase; }
 
 .header__navigation {
-  display: flex;
+  display: none;
   align-items: center; }
   .header__navigation_list {
     list-style: none;
@@ -108,6 +112,39 @@ body {
     font-weight: 600;
     text-decoration: none;
     color: #ffffff; }
+
+.header__mobile {
+  position: relative; }
+  .header__mobile_icon {
+    position: relative; }
+    .header__mobile_icon, .header__mobile_icon::before, .header__mobile_icon::after {
+      width: 3rem;
+      height: 2.67px;
+      background-color: #fff;
+      display: inline-block;
+      border-radius: 200px; }
+    .header__mobile_icon::before, .header__mobile_icon::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      transition: all 0.2s; }
+    .header__mobile_icon::before {
+      top: -0.8rem; }
+    .header__mobile_icon::after {
+      top: 0.8rem; }
+  .header__mobile_checkbox {
+    position: absolute;
+    top: -50%;
+    left: 30%;
+    opacity: 0; }
+  .header__mobile_checkbox:checked + .header__mobile .header__mobile_icon {
+    background-color: transparent; }
+  .header__mobile_checkbox:checked + .header__mobile .header__mobile_icon::after {
+    top: 0;
+    transform: rotate(135deg); }
+  .header__mobile_checkbox:checked + .header__mobile .header__mobile_icon::before {
+    top: 0;
+    transform: rotate(-135deg); }
 
 .header__btn {
   display: flex;
