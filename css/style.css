@@ -245,6 +245,9 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center; }
+    @media only screen and (max-width: 37.5em) {
+      .head__user {
+        width: 100%; } }
     .head__user_bg {
       display: flex;
       justify-content: space-around;
