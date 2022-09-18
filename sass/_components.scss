@@ -656,6 +656,12 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
+
+  @include respond(phone) {
+    display: block;
+    width: 100%;
+  }
+
   &__body {
     width: 100%;
     margin-right: 1rem;
