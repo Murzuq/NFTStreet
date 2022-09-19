@@ -76,7 +76,11 @@ body {
   margin: 10.1rem 0rem; }
 
 .footer {
-  margin: 8.3rem 15rem 7.2rem 15rem; }
+  max-width: 113.7rem;
+  margin: 0 auto; }
+  @media only screen and (max-width: 37.5em) {
+    .footer {
+      margin: 6.4rem 3rem; } }
 
 .row {
   display: flex; }
@@ -709,7 +713,8 @@ body {
   .footer__content_social ul {
     display: flex;
     justify-content: space-between;
-    align-items: center; }
+    align-items: center;
+    width: 20.1rem; }
     .footer__content_social ul li {
       list-style: none; }
       .footer__content_social ul li:not(:last-child) {

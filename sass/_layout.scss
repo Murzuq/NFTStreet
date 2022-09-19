@@ -48,5 +48,13 @@
 }
 
 .footer {
-  margin: 8.3rem 15rem 7.2rem 15rem;
+  // margin: 8.3rem 15rem 7.2rem 15rem;
+  // margin: 10.1rem 0rem;
+  max-width: 113.7rem;
+  margin: 0 auto;
+
+  @include respond(phone) {
+    // max-width: 37.5rem;
+    margin: 6.4rem 3rem;
+  }
 }
