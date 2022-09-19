@@ -15,6 +15,12 @@
   height: 9.6rem;
   background-color: #1f1d2b;
   padding: 0 15rem;
+  max-width: 113.7rem;
+  margin: 0 auto;
+
+  @include respond(phone) {
+    padding: 0rem 3rem;
+  }
 }
 
 .mobile {
@@ -24,7 +30,7 @@
 
 .section-head {
   margin-top: 14.1rem;
-  margin-bottom: 7.3rem;
+  margin-bottom: 16.3rem;
   @include respond(phone) {
     margin-top: 3.2rem;
   }
@@ -48,13 +54,10 @@
 }
 
 .footer {
-  // margin: 8.3rem 15rem 7.2rem 15rem;
-  // margin: 10.1rem 0rem;
   max-width: 113.7rem;
   margin: 0 auto;
 
   @include respond(phone) {
-    // max-width: 37.5rem;
     margin: 6.4rem 3rem;
   }
 }
