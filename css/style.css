@@ -506,11 +506,17 @@ body {
       color: #fcfcfc; }
   .top-collection__body > .row:last-child {
     margin-top: 2.4rem; }
+    @media only screen and (max-width: 37.5em) {
+      .top-collection__body > .row:last-child {
+        margin-top: 0rem; } }
   .top-collection__card {
     position: relative;
     width: 100%; }
     .top-collection__card:not(:last-child) {
       margin-right: 2.4rem; }
+    @media only screen and (max-width: 37.5em) {
+      .top-collection__card {
+        margin-top: 3.2rem; } }
     .top-collection__card_body {
       display: flex;
       flex-direction: column;

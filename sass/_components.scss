@@ -639,6 +639,9 @@
     & > .row {
       &:last-child {
         margin-top: 2.4rem;
+        @include respond(phone) {
+          margin-top: 0rem;
+        }
       }
     }
   }
@@ -649,6 +652,11 @@
     &:not(:last-child) {
       margin-right: 2.4rem;
     }
+
+    @include respond(phone) {
+      margin-top: 3.2rem;
+    }
+
     &_body {
       display: flex;
       flex-direction: column;
