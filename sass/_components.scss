@@ -21,6 +21,12 @@
   }
 }
 
+.no-see {
+  @include respond(phone) {
+    display: none !important;
+  }
+}
+
 .header {
   &__logo {
     margin-right: 5.5rem;
@@ -462,8 +468,16 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      width: 15rem;
+      width: 15.7rem;
       height: 5.8rem;
+    }
+  }
+
+  &__btn {
+    display: none;
+    @include respond(phone) {
+      display: flex;
+      margin-top: 2.8rem;
     }
   }
 
@@ -473,6 +487,15 @@
 
       &:last-child {
         margin-top: 2.4rem;
+        // opacity: 1;
+        // & > .explore__card {
+        //   opacity: 1;
+        // }
+      }
+      @include respond(phone) {
+        &:last-child {
+          margin-top: 0rem;
+        }
       }
     }
   }
@@ -484,6 +507,11 @@
     &:not(:last-child) {
       margin-right: 2.4rem;
     }
+
+    @include respond(phone) {
+      margin-top: 3.2rem;
+    }
+
     &_img {
       & > img {
         width: 100%;
@@ -514,6 +542,7 @@
       width: 100%;
       height: 19.8rem;
       background-repeat: no-repeat;
+      background-size: cover;
       left: 0rem;
       bottom: 0rem;
     }
