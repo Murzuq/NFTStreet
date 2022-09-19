@@ -218,7 +218,7 @@ body {
       .head__img {
         position: relative;
         width: 100%;
-        height: 500px;
+        height: 32.3rem;
         margin-top: 4.8rem; } }
     .head__img_group {
       width: 50%;
@@ -329,19 +329,28 @@ body {
 
 .top-seller__body > .row:last-child {
   margin-top: 2.4rem; }
+  @media only screen and (max-width: 37.5em) {
+    .top-seller__body > .row:last-child {
+      margin-top: 0rem; } }
 
 .top-seller__card {
   background-image: url(../img/top-seller-bg.png);
   background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 14.4rem;
-  width: 36.3rem; }
+  width: 100%; }
   .top-seller__card:not(:last-child) {
     margin-right: 2.4rem; }
   .top-seller__card_img {
     margin-right: 3.3rem; }
+  @media only screen and (max-width: 37.5em) {
+    .top-seller__card {
+      margin-top: 1.6rem; }
+      .top-seller__card:not(:last-child) {
+        margin-right: 0rem; } }
 
 .top-seller__text {
   display: flex;
