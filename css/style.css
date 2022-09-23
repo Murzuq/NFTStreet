@@ -118,7 +118,7 @@ body {
     text-transform: uppercase; }
 
 .header__navigation {
-  display: none;
+  display: flex;
   align-items: center; }
   .header__navigation_list {
     list-style: none;
