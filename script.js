@@ -1,13 +1,8 @@
-// document.querySelector("body").style.width = "none";
+let checkBox = document.querySelector(".header__mobile_checkbox");
+let mobile = document.querySelector(".mobile");
 
-if (window.outerWidth <= 600) {
-  document.querySelector(".header__navigation").style.display = "none";
-} else {
-  document.querySelector(".header__navigation").style.display = "flex";
-}
-
-console.log(window.outerWidth);
-
-document.querySelector("body").style.width.onchange = function () {
-  console.log(window.outerWidth);
-};
+checkBox.addEventListener("click", () => {
+  checkBox.checked == true
+    ? (mobile.style.display = "block")
+    : (mobile.style.display = "none");
+});

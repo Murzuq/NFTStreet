@@ -74,6 +74,7 @@
 
   &__mobile {
     position: relative;
+    display: none;
     &_icon {
       position: relative;
       &,
@@ -137,47 +138,61 @@
   }
 }
 
-.header__mobile_checkbox:checked .mobile {
-  opacity: 1;
+.mobile {
+  padding-bottom: 2rem;
+  display: none;
+  &__navigation {
+    &_list {
+      list-style: none;
+    }
+
+    &_item {
+      &:not(:first-child) {
+        margin-top: 2rem;
+      }
+    }
+
+    &_link,
+    &:link,
+    &:visited {
+      font-family: $font-family-sub-1;
+      font-size: 1.4rem;
+      font-weight: 600;
+      text-decoration: none;
+      color: $color-white;
+    }
+  }
+
+  &__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18.4rem;
+    height: 4.8rem;
+
+    @include respond(phone) {
+      margin-top: 20px;
+    }
+
+    &_icon {
+      margin-right: 1rem;
+    }
+  }
 }
+
+@include respond(phone) {
+  .header__navigation_nav,
+  .header__btn {
+    display: none !important;
+  }
+  .header__mobile {
+    display: block;
+  }
+}
+
+// .header__mobile_checkbox:checked,
 // .mobile {
-//   height: 30rem;
-//   width: 100%;
-//   // overflow: hidden;
-//   position: fixed;
-//   // display: flex;
-//   z-index: 100;
-//   opacity: 0;
-
-//   &__navigation {
-//     align-items: center;
-//     &_nav {
-//     }
-
-//     &_list {
-//       list-style: none;
-//       display: flex;
-//       flex-direction: column;
-//       margin-right: 10rem;
-//     }
-
-//     &_item {
-//       margin-top: 3.6rem;
-//       &:not(:last-child) {
-//       }
-//     }
-
-//     &_link {
-//       &:link,
-//       &:visited {
-//         font-family: $font-family-sub-1;
-//         font-size: 1.4rem;
-//         font-weight: 600;
-//         text-decoration: none;
-//         color: $color-white;
-//       }
-//     }
-//   }
+//   // display: block;
 // }
 
 .head {
