@@ -14,9 +14,9 @@
   align-items: center;
   height: 9.6rem;
   background-color: #1f1d2b;
-  padding: 0 15rem;
+  // padding: 0 15rem;
   max-width: 113.7rem;
-  margin: 0 auto;
+  padding: 0 3rem;
 
   @include respond(phone) {
     padding: 0rem 3rem;
@@ -26,6 +26,10 @@
 .mobile {
   background-color: #1f1d2b;
   padding: 0 5rem;
+}
+
+.content {
+  margin: 0 3rem;
 }
 
 .section-head {

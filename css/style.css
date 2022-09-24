@@ -49,9 +49,8 @@ body {
   align-items: center;
   height: 9.6rem;
   background-color: #1f1d2b;
-  padding: 0 15rem;
   max-width: 113.7rem;
-  margin: 0 auto; }
+  padding: 0 3rem; }
   @media only screen and (max-width: 37.5em) {
     .header {
       padding: 0rem 3rem; } }
@@ -59,6 +58,9 @@ body {
 .mobile {
   background-color: #1f1d2b;
   padding: 0 5rem; }
+
+.content {
+  margin: 0 3rem; }
 
 .section-head {
   margin-top: 14.1rem;
@@ -204,7 +206,7 @@ body {
     .mobile__btn_icon {
       margin-right: 1rem; }
 
-@media only screen and (max-width: 37.5em) {
+@media only screen and (max-width: 56.25em) {
   .header__navigation_nav,
   .header__btn {
     display: none !important; }
@@ -216,13 +218,13 @@ body {
   gap: 7.7rem;
   justify-content: space-between;
   width: 100%; }
-  @media only screen and (max-width: 37.5em) {
+  @media only screen and (max-width: 56.25em) {
     .head {
       display: block;
       width: 100%; } }
   .head__text {
     width: 50%; }
-    @media only screen and (max-width: 37.5em) {
+    @media only screen and (max-width: 56.25em) {
       .head__text {
         width: 100%; } }
     .head__text_main {
@@ -250,14 +252,14 @@ body {
       justify-content: center;
       align-items: center;
       margin-top: 4.8rem; }
-      @media only screen and (max-width: 37.5em) {
+      @media only screen and (max-width: 56.25em) {
         .head__text_btn {
           width: 100%; } }
   .head__img {
     width: 50%;
     position: absolute;
     right: 0rem; }
-    @media only screen and (max-width: 37.5em) {
+    @media only screen and (max-width: 56.25em) {
       .head__img {
         position: relative;
         width: 100%;
