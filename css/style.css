@@ -49,7 +49,6 @@ body {
   align-items: center;
   height: 9.6rem;
   background-color: #1f1d2b;
-  max-width: 113.7rem;
   padding: 0 3rem; }
   @media only screen and (max-width: 37.5em) {
     .header {
