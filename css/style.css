@@ -134,6 +134,10 @@ body {
     text-decoration: none;
     color: #ffffff; }
 
+.header__checkbox {
+  visibility: hidden;
+  display: none; }
+
 .header__mobile {
   position: relative;
   display: none; }
@@ -204,13 +208,19 @@ body {
         margin-top: 20px; } }
     .mobile__btn_icon {
       margin-right: 1rem; }
+  @media only screen and (max-width: 56.25em) {
+    .mobile {
+      display: block;
+      visibility: visible; } }
 
 @media only screen and (max-width: 56.25em) {
   .header__navigation_nav,
   .header__btn {
     display: none !important; }
-  .header__mobile {
-    display: block; } }
+  .header__mobile,
+  .header__checkbox {
+    display: block;
+    visibility: visible; } }
 
 .head {
   display: flex;
