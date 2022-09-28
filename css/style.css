@@ -83,7 +83,7 @@ body {
 
 .footer {
   max-width: 113.7rem;
-  margin: 0 auto; }
+  margin: 0 auto 5rem auto; }
   @media only screen and (max-width: 37.5em) {
     .footer {
       margin: 6.4rem 3rem; } }
